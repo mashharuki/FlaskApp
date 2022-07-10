@@ -46,3 +46,7 @@ Downloading: "https://download.pytorch.org/models/maskrcnn_resnet50_fpn_coco-bf2
 ```
 
 <img src="flaskapi/data/output/test.jpeg">
+
+### jupyter lab の起動コマンド
+
+`jupyter lab`

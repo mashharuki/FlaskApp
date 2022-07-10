@@ -7,6 +7,10 @@ Flask を使った物体検知用のアプリのリポジトリです。
 `python3 -m venv venv`
 `source venv/bin/activate`
 
+### パッケージを一括インストールする方法
+
+`pip install -r requirements.txt`
+
 ### gitignore 生成コマンド
 
 `curl -L http://www.gitignore.io/api/python,flask,vscode > .gitignore`

@@ -30,3 +30,19 @@ Downloading: "https://download.pytorch.org/models/maskrcnn_resnet50_fpn_coco-bf2
 100.0%
 >>> torch.save(model, "model.pt")
 ```
+
+### 物体検知 API を試すためのコマンド
+
+`curl -X POST http://127.0.0.1:5000/detect -H "Content-Type: application/json" -d '{"filename": "data/original/test.jpeg"}'`
+
+レスポンスの一例
+
+```cmd
+{
+  "bicycle": 98,
+  "dog": 99,
+  "truck": 84
+}
+```
+
+<img src="flaskapi/data/output/test.jpeg">
